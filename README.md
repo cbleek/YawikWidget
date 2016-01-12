@@ -14,6 +14,9 @@ $ make init
 $ make
 ```
 
+## Demo
+
+You can see the example in action at https://yawik.org/YawikWidget/example/index.html
 
 ## License (MIT)
 
