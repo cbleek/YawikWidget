@@ -2,7 +2,7 @@
 
 This JS Widget let's you integrate your YAWIK jobs into your personal Homepage.
 
-Building an embedded widget using [RequireJS](http://requirejs.org) and [Ractive.js](http://ractivejs.org).
+Building an embedded widget using [RequireJS](http://requirejs.org) and jQuery
 
 
 ## Building the widget
