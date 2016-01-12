@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Embed your Jobs Example</title>
+    <style>
+        #YawikWidget {
+            /*
+            * style your Joblist
+            */
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<h1>Your embedded list of job postings</h1>
+<div id="YawikWidget"
+     data-organization="55ae775c6b10f8f05b8b457f"
+     data-yawik="https://yawik.org/">
+</div>
+<script>
+    (function (window, document) {
+        var loader = function () {
+            var script = document.createElement("script"), tag = document.getElementsByTagName("script")[0];
+            script.src = "./../yawik.min.js";
+            tag.parentNode.insertBefore(script, tag);
+        };
+        window.addEventListener ? window.addEventListener("load", loader, false) : window.attachEvent("onload", loader);
+    })(window, document);
+</script>
+
+<script href="http://xenon/~cbleek/YawikWidget/yawik.min.js"></script>
+</body>
+</html>
