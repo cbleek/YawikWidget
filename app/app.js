@@ -11,7 +11,7 @@ define(['jquery'], function ($) {
             var yawik = $div.data('yawik');
 
             $.ajax({
-                url: "https://yawik.org/demo/en/api/jobs/organization/" + organization + "?callback=?",
+                url: yawik + "en/api/jobs/organization/" + organization + "?",
                 jsonpCallback: 'yawikParseJobs',
                 dataType: "jsonp"
             }).then(function(resp) {
