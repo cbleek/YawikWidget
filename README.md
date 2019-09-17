@@ -1,3 +1,7 @@
+# DEPRECATED. 
+
+replaced by https://github.com/cross-solution/yawik-vue-joblist-widget
+
 # Embed YAWIK Jobs in your personal Homepage
 
 This JS Widget let's you integrate your YAWIK jobs into your personal Homepage.
